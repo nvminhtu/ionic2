@@ -5,7 +5,7 @@ Ionic 2 apps are created and developed primarily through the Ionic command line 
 #Coming soon!!!!!
 #Course List of Ionic 2
 
-### Featured of KonvaJS
+### Featured of Ionic 2
 
 
 #Section 1: Introduction
