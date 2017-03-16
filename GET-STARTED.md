@@ -88,4 +88,5 @@ $ ionic serve -l
 
 ### Tổng kết:
 Vậy là đã cài xong Ionic, chúng ta có thể khởi tạo ứng dụng và tung hoành trên này nhé, phần sau sẽ hướng dẫn các bạn về cấu trúc của Ionic 2.
+
 [NodeJS]: <https://nodejs.org/en/>
