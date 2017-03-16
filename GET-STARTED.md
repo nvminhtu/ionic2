@@ -15,19 +15,24 @@ Chúng ta sử dụng Command Prompt của Windows, hoặc trong Windows 10 chú
 Đối với trên MAC/Linux chúng ta xài Terminal để xử thôi.
 
 ### Cài đặt Cordova
+
 ```sh
 $ npm install -g cordova
 ```
+
 Trên máy MAC/Linux/Unix, nếu bị lỗi access, bạn phải chạy dưới quyền root, sử dụng lệnh sau
+
 ```sh
 $ sudo npm install -g cordova
 ```
+
 ### Cài đặt Ionic CLI
 Tiếp đến, cài đặt Ionic CLI - là 1 bộ code sử dụng command line phát triển riêng cho IONIC, thông qua lệnh ionic ta có thể thực thi các lệnh (khởi tạo, chạy project, tạo page)
 
 ```sh
 $ npm install -g ionic
 ```
+
 Một số trường hợp cài đặt bị lỗi, mà ko biết lý do tại sao, bạn có thể cần xóa bản cài đặt cũ của ionic-cli
 
 ```sh
@@ -35,30 +40,39 @@ $ npm uninstall -g ionic
 ```
 
 Clear cache
+
 ```sh
 $ npm cache clean
 ```
 
 Sau đó cài lại
+
 ```sh
 $ npm install -g ionic
 ```
 
 Kiểm tra lại thông tin cài đặt ionic
+
 ```sh
 $ ionic info
 ```
+
 ### Cài đặt TypeScript
 Vì Ionic sử dụng AngularJS 2, Typescript thì làm việc rất tốt với AngularJS2, phần khác mình sẽ hướng dẫn các bạn về TypeScript để có thể code nhanh hơn.
+
 ```sh
 $ npm install -g typescript
 ```
+
 ### Khởi tạo 1 Project
 Ví dụ ta khởi tạo 1 project hello-world
+
 ```sh
 $ ionic start hello-world --v2
 ```
+
 Sau đó tao vào thư mục project và chạy ứng dụng
+
 ```sh
 $ ionic serve
 ```
