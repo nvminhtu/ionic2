@@ -1,6 +1,6 @@
 # Get started
-Đầu tiên chúng ta cần biết sơ về Ionic 2s.
-* Ionic 2 là 1 framework javascript cho phép chúng ta làm việc tương tác trên mobile, nó xây dựng dựa trên cordova.
+Đầu tiên chúng ta cần biết sơ về Ionic 2.
+* Ionic 2 là 1 framework javascript cho phép chúng ta làm việc tương tác trên mobile, nó xây dựng dựa trên cordova, từ đó chúng ta có thể xây dựng các ứng dụng Native App.
 * Giúp chúng ta xây dựng các ứng dụng cross platform sử dụng HTMl, CSS và Javascript.
 
 # Installation
@@ -10,6 +10,9 @@
 * Đầu tiên, cần đảm bảo chúng ta đã cài NodeJS, nếu chưa chúng ta phải cài vào, => tải và cài [NodeJS]
 
 # Cài đặt Ionic 2
+
+Chúng ta sử dụng Command Prompt của Windows, hoặc trong Windows 10 chúng ta có thể sử dụng Windows PowerShell hoặc Git Bash.
+Đối với trên MAC/Linux chúng ta xài Terminal để xử thôi.
 
 ### Cài đặt Cordova
 ```sh
@@ -70,5 +73,5 @@ $ ionic serve -l
 ```
 
 ### Tổng kết:
-Vậy là đã cài xong Ionic, chúng ta có thể khởi tạo ứng dụng và tung hoành trên này nhé, phần sau sẽ hướng dẫn các bạn về cấu trúc của Ionic. 
+Vậy là đã cài xong Ionic, chúng ta có thể khởi tạo ứng dụng và tung hoành trên này nhé, phần sau sẽ hướng dẫn các bạn về cấu trúc của Ionic 2.
 [NodeJS]: <https://nodejs.org/en/>
