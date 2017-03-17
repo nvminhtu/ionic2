@@ -56,11 +56,24 @@ Ví dụ lệnh bên dưới cho phép chúng ta cài plugin trong cordova làm 
 ```sh
 $ cordova plugin add cordova-plugin-camera
 ```
-Bạn cũng có thể xem danh sách các plugin của Cordova tại đây - [Cordova Plugins] 
+Bạn cũng có thể xem danh sách các plugin của Cordova tại đây - [Cordova Plugins]
 
+### resources
+Folder này chứa resouces cho từng platform cụ thể (Ví dụ như các icon, splash screen).
+
+### src/app/app.component.ts
+Là một Component gốc (root component) app của bạn. Nó được khai báo trong file src/app/app.module.ts, đơn giản là nó thể hiện tất cả các modules chúng ta sử dụng trong app ủa chúng ta.
+
+### src/app/app.html
+File này chính là phần view ban đầu của app (còn gọi là Root View).
+
+Nó có thể chứa Thanh Nav Bar, hoặc Sidemenu,...tùy từng project chúng ta sử dụng.
+
+Nếu bạn đã làm quen với AngularJS 2 thì việc này khá dễ dàng để hiểu, nếu chưa thì mình sẽ viết 1 bài khác về cấu trúc và làm việc với AngularJS 2 trong IONIC 2
 
 ### Tổng kết:
-Vậy là đã cài xong Ionic, chúng ta có thể khởi tạo ứng dụng và tung hoành trên này nhé, phần sau sẽ hướng dẫn các bạn về cấu trúc của Ionic 2.
+Vậy là chúng ta đã hiểu sơ về cấu trúc IONIC 2 - biết được từng file và folder làm việc như thế nào.
+Phần cấu trúc của dự án IONIC tiếp theo sẽ giới thiệu kĩ hơn về cấu trúc của 1 dự án mẫu sử dụng IONIC2 (bao gồm pages, component, modules,...)
 
 [Cordova Plugins]: https://cordova.apache.org/plugins/
 
