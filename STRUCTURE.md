@@ -1,4 +1,4 @@
-# Cấu trúc của 1 dự án IONIC 2
+# Cấu trúc của 1 dự án IONIC 2 - phần 1
 Về cơ bản cấu trúc của 1 source IONIC 2 cũng tương tự như IONIC.
 Vì thế nếu bạn nắm cấu trúc cơ bản của IONIC thì cũng nhanh chóng nắm bắt IONIC 2.
 
@@ -22,12 +22,18 @@ Hầu hết thời gian, chúng ta sẽ làm việc trong thư mục src, chứa
 Mặc định nó sẽ load file src/index.html
 
 ### src/index.html
-Chúng ta sẽ ít chỉnh sửa trên file này, lưu ý là trong source code của file này thì <ion-app></ion-app> chính là 1 entry point, code app của chúng ta sẽ render thông qua tag này.
+Chúng ta sẽ ít chỉnh sửa trên file này, lưu ý là trong source code của file này thì
+
+```sh
+<ion-app></ion-app>
+```
+
+chính là 1 entry point, code app của chúng ta sẽ render thông qua tag này.
 
 Các phần include khác trong file này, chính là để load các thành phần liên quan build IONIC 2 (thường gọi là dependencies)
 
 ### config.xml
-Chứa tất cả các thành phần để chúng ta cấu hình cho app, để build trên máy thật, bao gồm tất cả các thành phần như (Tên App, tên Package, đền các plugin của cordova,....)
+Chứa tất cả các thành phần để chúng ta cấu hình cho app, để build trên máy thật, bao gồm tất cả các thành phần như (Tên App, tên Package, và các plugin của cordova,....)
 
 ### src
 Chứa toàn bộ source code để code app
