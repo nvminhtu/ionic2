@@ -71,7 +71,7 @@ Ví dụ ta khởi tạo 1 project hello-world
 $ ionic start hello-world --v2
 ```
 
-Sau đó tao vào thư mục project và chạy ứng dụng
+Sau đó ta vào thư mục project và chạy ứng dụng
 
 ```sh
 $ ionic serve
